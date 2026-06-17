@@ -1,18 +1,38 @@
 {
   "name": "vestashare",
   "version": "1.0.0",
-  "description": "AI-Autonomous Marketplace for Fractional Investing in Real-World Assets using Pi Coin",
-  "main": "index.js",
+  "description": "AI-autonomous marketplace for fractional investing in real-world assets using Pi Coin",
+  "main": "src/index.tsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "zustand": "^4.3.8",
+    "framer-motion": "^10.16.4",
+    "recharts": "^2.8.0",
+    "lucide-react": "^0.263.1",
+    "axios": "^1.4.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^1.14.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.3.4",
-    "vite": "^4.4.9"
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "tailwindcss": "^3.3.2",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
